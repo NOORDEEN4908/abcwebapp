@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-management, .reservation-management {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+}
+
+.profile-management h2, .reservation-management h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f8f8f8;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #FF821E;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #e67300;
+}
+
+
+
+/* User Queries Section */
+.user-queries {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+}
+
+.user-queries h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.user-queries table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-queries table th,
+.user-queries table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.user-queries table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.user-queries table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.update-profile-btn{
+    width: 200px;
+}
