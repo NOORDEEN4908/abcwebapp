@@ -1,0 +1,68 @@
+
+.menu-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0px 40px 0px;
+}
+
+/* Menu Grid Styles */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.menu-item {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    overflow: hidden;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+    transform: scale(1.05);
+}
+
+.menu-item .content {
+    padding: 20px;
+}
+
+.menu-item h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.menu-item .description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.menu-item .price {
+    font-size: 20px;
+    font-weight: bold;
+}

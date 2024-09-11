@@ -1,0 +1,181 @@
+<!DOCTYPE web-app PUBLIC 
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>abcwebapp</display-name>
+
+  <!-- HelloWorldServlet -->
+  <servlet>
+      <servlet-name>HelloWorldServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>HelloWorldServlet</servlet-name>
+      <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+  <!-- RegisterServlet -->
+  <servlet>
+      <servlet-name>RegisterServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RegisterServlet</servlet-name>
+      <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- LoginServlet -->
+  <servlet>
+      <servlet-name>LoginServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>LoginServlet</servlet-name>
+      <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- LogoutServlet -->
+  <servlet>
+      <servlet-name>LogoutServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>LogoutServlet</servlet-name>
+      <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- QueryServlet -->
+  <servlet>
+      <servlet-name>QueryServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.QueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>QueryServlet</servlet-name>
+      <url-pattern>/QueryServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- MenuServlet -->
+  <servlet>
+      <servlet-name>MenuServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.MenuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>MenuServlet</servlet-name>
+      <url-pattern>/MenuServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- ReservationServlet -->
+  <servlet>
+      <servlet-name>ReservationServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.ReservationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ReservationServlet</servlet-name>
+      <url-pattern>/ReservationServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- AddStaffServlet -->
+  <servlet>
+      <servlet-name>AddStaffServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.AddStaffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>AddStaffServlet</servlet-name>
+      <url-pattern>/AddStaffServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- ProductServlet -->
+  <servlet>
+      <servlet-name>ProductServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ProductServlet</servlet-name>
+      <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- testAddStaffServlet -->
+  <servlet>
+      <servlet-name>testAddStaffServlet</servlet-name>
+      <display-name>testAddStaffServlet</display-name>
+      <description>AtestddStaffServlet</description>
+      <servlet-class>com.example.abcwebapp.testAddStaffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>testAddStaffServlet</servlet-name>
+      <url-pattern>/testAddStaffServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- Testloging -->
+  <servlet>
+      <servlet-name>Testloging</servlet-name>
+      <display-name>Testloging</display-name>
+      <description>Testloging</description>
+      <servlet-class>com.example.abcwebapp.Testloging</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Testloging</servlet-name>
+      <url-pattern>/Testloging</url-pattern>
+  </servlet-mapping>
+
+  <!-- LoginServletTest -->
+  <servlet>
+      <servlet-name>LoginServletTest</servlet-name>
+      <display-name>LoginServletTest</display-name>
+      <servlet-class>com.example.abcwebapp.LoginServletTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>LoginServletTest</servlet-name>
+      <url-pattern>/LoginServletTest</url-pattern>
+  </servlet-mapping>
+
+  <!-- AddStaffServletTest -->
+  <servlet>
+      <servlet-name>AddStaffServletTest</servlet-name>
+      <display-name>AddStaffServletTest</display-name>
+      <servlet-class>com.example.abcwebapp.AddStaffServletTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>AddStaffServletTest</servlet-name>
+      <url-pattern>/AddStaffServletTest</url-pattern>
+  </servlet-mapping>
+
+  <!-- Missing Servlets -->
+  <servlet>
+      <servlet-name>UpdateProfileServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.UpdateProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>UpdateProfileServlet</servlet-name>
+      <url-pattern>/UpdateProfileServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>CancelReservationServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.CancelReservationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>CancelReservationServlet</servlet-name>
+      <url-pattern>/CancelReservationServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>UpdateQueryServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.UpdateQueryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>UpdateQueryServlet</servlet-name>
+      <url-pattern>/UpdateQueryServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>UpdateReservationServlet</servlet-name>
+      <servlet-class>com.example.abcwebapp.UpdateReservationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>UpdateReservationServlet</servlet-name>
+      <url-pattern>/UpdateReservationServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
